@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, dodgerblue, purple);
+    text-align: center;
+    color: white;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+button{
+    background-color: slateblue;
+    color: white;
+    border:none;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: steelblue;
+
+}
+
+
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+
+  
+.final_step,.second_step {
+    display:none;
+}
+
+#resultado{
+    font-size: 25px;
+    
+}
+
+.first_step{
+    display:block;
+}
